@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /*
+        An unvisited link will be green with no underline.
+        A visited link will be pink with no underline.
+        An active link will be yellow and underlined.
+        when mousing over a link it will become red and underlined.
+        */
+        a:link {color: green; background-color: transparent; text-decoration: none;}
+        a:visited {color: pink; background-color: transparent; text-decoration: none;}
+        a:hover {color: red; background-color: transparent; text-decoration: underline;}
+        a:active {color: yellow; background-color: transparent; text-decoration: underline;}
+        
+        p {font-family:helvetica; font-size:20px;}
+    </style>
+</head>
+
+<body>
+    
+<p>Absolute URLs</p>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<p>Relative URLs</p>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+</body>
+</html>

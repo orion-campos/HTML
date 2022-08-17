@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+
+<img src="pic_trulli.jpg" alt="Trulli" usemap="#house" width="500" height="333">
+<map name="house">
+    <area shape="rect" coords="34,44,270,350" href="https://www.w3schools.com/html/html_images_imagemap.asp" onclick="test1()">
+</map>
+
+<br>
+
+<a href="https://www.w3schools.com/html/html_images_imagemap.asp" onclick="test2()">
+<img src="frenchfood.jpg" alt="Trulli" width="450" height="675">
+</a>
+
+<br>
+
+<a href="https://www.w3schools.com/html/html_images_imagemap.asp" onclick="test2()">
+<img src="frenchfood.jpg" alt="Trulli" style="width:450px;height:675px;">
+</a>
+
+<script>
+    function test1() {
+      alert("test1");
+    }
+    function test2() {
+      alert("test2");
+    }
+</script>
+
+</body>
+</html>
